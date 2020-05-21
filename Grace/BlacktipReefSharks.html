@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Blacktip Reef Sharks </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+body {
+  background-image: linear-gradient(rgba(16,165,126, 0.8), rgba(0,157,220, 0.8));
+  height:100%
+}
+/*id=right setup for the div*/
+#right {
+  height:600px;
+  width:50%;
+  float:right;
+}
+/*id=rightbutton setup for the button div used below*/
+#rightbutton {
+  height:100px;
+  width:50%;
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height:600px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:left;
+}
+/*id=leftbutton setup for the button div used below*/
+#leftbutton {
+  height: 100px;
+  width: 50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #F36F3A;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #4F64C1;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to sunlight info page*/
+.sunlightbutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for sunlightbutton*/
+.sunlightbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to sunlight info page*/
+.nextbutton {
+  background-color: #F36F3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for sunlightbutton*/
+.nextbutton:hover {
+  background-color: #FFCA3A;
+  color: white;
+}
+/*dropdown menu functionality implemented below*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+</style>
+ </head>
+
+ <!--start of body for page-->
+  <body>
+    <BR><BR>
+      <!--put in buttons for access to homepage and sunlight zone page-->
+      <button class="button homebutton">Home</button>
+      <!--drop down menu for the sunlight zone sections-->
+      <div class="dropdown">
+        <button class="button sunlightbutton" onclick="document.location = 'SunlightIntroPage.html'">Epipelagic Zone</button>
+        <div class="dropdown-content">
+          <a href="CoralReefPage.html"><p style="font-family:verdana; font-size:14px">Coral Reef</p></a>
+          <a href="BlacktipReefSharks.html"><p style="font-family:verdana; font-size:14px">Blacktip Reef Shark</p></a>
+          <a href="Anchovies.html"><p style="font-family:verdana; font-size:14px">Anchovies</p></a>
+          <a href="Plankton.html"><p style="font-family:verdana; font-size:14px">Plankton</p></a>
+        </div>
+      </div>
+    <BR><BR>
+
+      <!--setup for title bar of page-->
+      <div id="title">
+        <p align="center" style="font-family:verdana">
+          <font size="72" color="white"><b>Blacktip Reef Sharks</b></font>
+          <BR>
+            <font color="white">Sharks in the reef</font>
+          </p>
+          <BR>
+       </div>
+
+       <BR>
+      <!--stitle of the text block-->
+       <div id="left">
+           <p align="center" style="font-family:verdana; font-size:20px">
+             <font color="white"><b><i>About Blacktip Reef Sharks</i> </b></font>
+           </p>
+           <!--text block in right div for shark  information-->
+           <p style="font-family:verdana">
+             <font color="white">Blacktip Reef Sharks are just one of the inhabitants of
+             Coral Reefs. They are smaller sharks that have distinct
+             dark brown or black tips on all of their fins. They can grow to be up to 6
+             feet long and weigh in around 50 pounds. They spend a lot of their time in
+             shallow waters, including in coral reefs and in mangrove areas. Juvenile sharks
+             are often found in extremely shallow water. The blacktip reef shark is a fast
+             predator and tends to eat reef fish. This includes mullet, herring,
+             surgeonfish, sardines, anchovies, and other small fish. <BR><BR>
+             The blacktip reef shark gernerally avoids human interaction and is frightened
+             by swimmers. This sharks is one of the three most common sharks that inhabits
+             coral reefs in the Indo-Pacific. The other most common sharks includes the Grey
+             Reef Shark and the Whitetip Reef Shark. Some smaller blacktip reef sharks are
+             preyed upon by grey reef sharks, groupers, tiger sharks, and even other blacktip reef sharks.
+             Next up, we will look at one of the food sources of these sharks, the anchovy!</font>
+           </p>
+         </div>
+
+         <!--places images in the right side of the page-->
+         <div id="right">
+           <p align="center">
+           <img src="assets/blacktipshark2.jpg" height="45%">
+           <BR><BR>
+           <img src="assets/blacktipshark.jpg" height="45%">
+         </p>
+         </div>
+
+       <BR><BR><BR><BR>
+
+        <!--buttons so you can forward and backward between pages-->
+        <div id="leftbutton">
+          <p align="center">
+            <button class="button nextbutton" onclick="document.location = 'CoralReefPage.html'">Back</button>
+          </p> </div>
+
+          <div id="rightbutton">
+            <p align="center">
+              <button class="button nextbutton" onclick="document.location = 'Anchovies.html'">Next</button>
+              </p> </div>
+          <BR>
+
+            <!--additional info links that likn out to external web pages-->
+            <p align="left" style="font-family:verdana; font-size:16px">
+              <font color="white"><i>Learn more about blacktip reef sharks at these sites:</i><BR></font>
+            </p>
+            <p align="left" style="font-family:verdana; font-size:14px">
+              <a href="https://marinebio.org/species/blacktip-sharks/carcharhinus-limbatus/">MarineBio - Blacktip Sharks</a>
+              <BR>
+              <a href="https://www.scubadiving.com/8-fun-facts-about-blacktip-reef-sharks">Scuba Diving - 8 Fun Facts about Blacktip Reef Sharks</a>
+              <BR>
+              <a href="https://www.nature.org/en-us/get-involved/how-to-help/animals-we-protect/blacktip-reef-shark/">The Nature Conservancy - Blacktip Reef Shark</a>
+              <BR>
+            </p>
+          <BR><BR>
+     </body>
+ </html>
