@@ -1,0 +1,213 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Coral Reefs </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(rgba(16,165,126, 0.8), rgba(0,157,220, 0.8));
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height:700px;
+  width:50%;
+  float:right;
+}
+/*id=rightbutton setup for button div used below*/
+#rightbutton {
+  height:100px;
+  width:50%;
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height:700px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:left;
+}
+/*id=leftbutton setup for button div used below*/
+#leftbutton {
+  height: 100px;
+  width: 50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #F36F3A;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #4F64C1;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to sunlight info page*/
+.sunlightbutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for sunlightbutton*/
+.sunlightbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user to next/prev page*/
+.nextbutton {
+  background-color: #F36F3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for nextbutton*/
+.nextbutton:hover {
+  background-color: #FFCA3A;
+  color: white;
+}
+/*dropdown menu functionality implemented below*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+</style>
+</head>
+
+<!--start of body for page-->
+ <body>
+   <BR><BR>
+     <!--put in buttons for access to home page which isnt build yet-->
+     <button class="button homebutton">Home</button>
+     <!--drop down menu for the sunlight zone sections-->
+     <div class="dropdown">
+       <button class="button sunlightbutton" onclick="document.location = 'SunlightIntroPage.html'">Epipelagic Zone</button>
+       <div class="dropdown-content">
+         <a href="CoralReefPage.html"><p style="font-family:verdana; font-size:14px">Coral Reef</p></a>
+         <a href="BlacktipReefSharks.html"><p style="font-family:verdana; font-size:14px">Blacktip Reef Shark</p></a>
+         <a href="Anchovies.html"><p style="font-family:verdana; font-size:14px">Anchovies</p></a>
+         <a href="Plankton.html"><p style="font-family:verdana; font-size:14px">Plankton</p></a>
+       </div>
+     </div>
+   <BR><BR>
+
+     <!--setup for title bar of page-->
+     <div id="title">
+       <p align="center" style="font-family:verdana">
+         <font size="72" color="white"><b>Coral Reefs</b></font>
+         <BR>
+           <font color="white">What's up with coral?</font>
+         </p>
+         <BR>
+      </div>
+      <BR>
+
+      <!--place image to the right of the text on page-->
+      <div id="right">
+        <p align="center">
+          <img src="assets/coralreef2.jpg" height="45%">
+          <BR><BR>
+          <img src="assets/coralreef.jpg" height="45%">
+        </p>
+        </div>
+
+        <!--title of text block-->
+        <div id="left">
+          <p align="center" style="font-family:verdana; font-size:20px">
+            <font color="white"><b><i>About Coral Reefs</i> </b></font>
+          </p>
+
+      <!--text block in right div for sunlight zone information-->
+        <p style="font-family:verdana">
+          <font color="white">Coral Reefs are home to many animals. Not only are they homes
+            to animals, but they are animals themselves. Coral is made up of hermatypic or "hard"
+            corals since they use calcium carbonate from the ocean water in order to make up their
+            hard exoskeleton. Coral reefs thrive in clear and shallow water and can be divided into
+            four main categories: fringing reefs, barrier reefs, patch reefs, and atolls.
+            Unfortuntately, coral reefs are being threatened by the increasing acidity of the
+            ocean from our burning of fossil fuels, water pollution, and rising ocean temperatures.
+            These coral reefs are home to thousands of Epipelagic Zone dwelling animals and hundreds
+            of different species of corals. If coral reefs continue to be destroyed by these factors,
+            we could see a sharp decline in the populations of animals that call coral reefs home. Coral
+            reefs are part of a healthy ocean environment. <BR><BR>
+            In the next page, we will get to see some of the animals that live and thrive in these
+            coral reefs. We will dive into more detail about Black Tip Reef Sharks and how they
+            interact with the coral reefs as both their home and hunting ground.
+          </font>
+        </p>
+      </div>
+
+           <BR><BR><BR><BR>
+
+
+           <!--buttons so you can go forward/backward between pages-->
+           <div id="leftbutton">
+           <p align="center">
+             <button class="button nextbutton" onclick="document.location = 'SunlightIntroPage.html'">Back</button>
+           </p> </div>
+
+           <div id="rightbutton">
+           <p align="center">
+               <button class="button nextbutton" onclick="document.location = 'BlacktipReefSharks.html'">Next</button>
+             </p>
+           </div>
+
+           <!--additional info that links out to external pages-->
+           <BR>
+             <p align="left" style="font-family:verdana; font-size:16px">
+               <font color="white"><i>Learn more about coral reefs at these sites:</i><BR></font>
+               </p>
+               <p align="left" style="font-family:verdana; font-size:14px">
+                 <a href="https://www.livescience.com/40276-coral-reefs.html">Live Science - What Are Coral Reefs?</a>
+                 <BR>
+                 <a href="https://www.noaa.gov/education/resource-collections/marine-life/coral-reef-ecosystems">NOAA - Coral Reef Exosystems</a>
+                 <BR>
+                 <a href="https://ocean.si.edu/ocean-life/invertebrates/corals-and-coral-reefs">Smithsonian - Corals And Coral Reefs</a>
+                 <BR>
+                </p>
+
+                <BR><BR>
+                </body>
+                </html>
