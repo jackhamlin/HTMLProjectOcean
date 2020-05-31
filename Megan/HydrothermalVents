@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Hydrothermal Vents -Abyssal Zone </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(blue, darkblue);
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height:700px;
+  width:50%;
+  float:right;
+}
+/*id=rightbutton setup for button div used below*/
+#rightbutton {
+  height:100px;
+  width:50%;
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height:700px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:left;
+}
+/*id=leftbutton setup for button div used below*/
+#leftbutton {
+  height: 100px;
+  width: 50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #437C90;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #4F64C1;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to sunlight info page*/
+.sunlightbutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for sunlightbutton*/
+.sunlightbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user to next/prev page*/
+.nextbutton {
+  background-color: #F36F3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for nextbutton*/
+.nextbutton:hover {
+  background-color: #FFCA3A;
+  color: white;
+}
+/*dropdown menu functionality implemented below*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+</style>
+</head>
+
+<!--start of body for page-->
+ <body>
+   <BR><BR>
+     <!--put in buttons for access to home page which isnt build yet-->
+     <button class="button homebutton">Home</button>
+     <!--drop down menu for the sunlight zone sections-->
+     <div class="dropdown">
+       <button class="button sunlightbutton" onclick="document.location = 'InfoAbyssalZone.html'">Abyssopelagic Zone</button>
+       <div class="dropdown-content">
+        <a href="HydrothermalVents.html"><p style="font-family:verdana; font-size:14px">Hydrothermal Vents</p></a>
+        <a href="DumboOctopus.html"><p style="font-family:verdana; font-size:14px">Dumbo Octopus</p></a>
+        <a href="TripodFish.html"><p style="font-family:verdana; font-size:14px">Tripod Fish</p></a>
+        <a href="WhaleFall.html"><p style="font-family:verdana; font-size:14px">Whale Fall</p></a>
+       </div>
+     </div>
+   <BR><BR>
+
+     <!--setup for title bar of page-->
+     <div id="title">
+       <p align="center" style="font-family:verdana">
+         <font size="72" color="white"><b>Hydrothermal Vents</b></font>
+         <BR>
+           <font color="white">Fissures of the sea floor</font>
+         </p>
+         <BR>
+      </div>
+      <BR>
+
+      <!--place image to the right of the text on page-->
+      <div id="right">
+        <p align="center">
+          <img src="Assets/BlackSmoker.jpg" height="45%">
+          <BR><BR>
+          <img src="Assets/WhiteSmoker.jpg" height="45%">
+        </p>
+        </div>
+
+        <!--title of text block-->
+        <div id="left">
+          <p align="center" style="font-family:verdana; font-size:20px">
+            <font color="white"><b><i>About Hydrothermal Vents</i> </b></font>
+          </p>
+
+      <!--text block in right div for sunlight zone information-->
+        <p style="font-family:verdana">
+          <font color="white">
+          
+          Hydrothermal vents are like an underwater hot spring. They emerge by seawater bubbling through fissures in ocean
+    crust near subduction zones (tectonic plates that move towards or away from one another).  Hot magma and hot mineral-rich water 
+    rise and mix with the cold sea water above it, The vent structures are formed from the cooling and solidifying of the mineral 
+    deposits.  The water from hydrothermal vents can reach over 700° F, but can't boil because of the intense pressure at the depths
+    of the abyssal zone.<BR><BR>
+
+    The openings from the sea floor releases hot mineral-rich water, necessary for the unique organisms and ecosystems that they support.
+    The bacteria on the vents are able to change the toxic vent minerals to more applicable energy, which then supplies food for the 
+    other vent organisms.  This process is called chemosynthesis.<BR><BR>
+    
+    Vents can differ in chemical and physical aspects, mainly the temperatures, minerals, and flow levels of their plumes.  
+    These differences have created black smokers and white smokers.  Black smokers can form chimneys of up to 180 feet.  
+    They release the darkest and hottest plumes with high amounts of sulfur.  White smokers form much smaller chimneys and release 
+    cooler, weaker flows (called seeps).  They are lighter in color compared to their dark counterparts and have a lot of calcium, 
+    silicon, and barium.<BR><BR>
+          
+          </font>
+        </p>
+      </div>
+
+           <BR><BR><BR><BR>
+
+
+           <!--buttons so you can go forward/backward between pages-->
+           <div id="leftbutton">
+           <p align="center">
+             <button class="button nextbutton" onclick="document.location = 'InfoAbyssalZone.html'">Back</button>
+           </p> </div>
+
+           <div id="rightbutton">
+           <p align="center">
+               <button class="button nextbutton" onclick="document.location = 'DumboOctopus.html'">Next</button>
+             </p>
+           </div>
+
+           <!--additional info that links out to external pages-->
+           <BR>
+             <p align="left" style="font-family:verdana; font-size:16px">
+               <font color="white"><i>Learn more about hydrothermal vents at these sites:</i><BR></font>
+               </p>
+               <p align="left" style="font-family:verdana; font-size:14px">
+                 <a href="https://www.nationalgeographic.org/media/deep-sea-hydrothermal-vents/">National Geographic - Deep Sea Hydrothermal Vents</a>
+                 <BR>
+                 <a href="https://oceanservice.noaa.gov/facts/vents.html">NOAA - What is a Hydrothermal Vent?</a>
+                 <BR>
+                </p>
+
+                <BR><BR>
+                </body>
+                </html>
