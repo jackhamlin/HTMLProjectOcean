@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Abyssopelagic Zone- Fourth Ocean Zone </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(blue, darkblue);
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height: 600px;
+  width:50%;
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height: 600px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #4682B4;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #4F64C1;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to sunlight info page*/
+.sunlightbutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for sunlightbutton*/
+.sunlightbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+/*reefbutton setup for button*/
+.reefbutton {
+  background-color: #9ACD32;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for reefbutton*/
+.reefbutton:hover {
+  background-color: #40E0D0;
+  color: white;
+}
+</style></head>
+
+<!--start of body for html page-->
+ <body>
+ <BR><BR>
+<!--created button so you can go back to home page-->
+<button class="button homebutton">Home</button>
+<!--created button so you can navigate each zone, dropdown menu-->
+<div class="dropdown">
+  <button class="button sunlightbutton">Abyssopelagic Zone</button>
+  <div class="dropdown-content">
+    <a href="HydrothermalVents.html"><p style="font-family:verdana; font-size:14px">Hydrothermal Vents</p></a>
+    <a href="DumboOctopus.html"><p style="font-family:verdana; font-size:14px">Dumbo Octopus</p></a>
+    <a href="TripodFish.html"><p style="font-family:verdana; font-size:14px">Tripod Fish</p></a>
+    <a href="WhaleFall.html"><p style="font-family:verdana; font-size:14px">Whale Fall</p></a>
+  </div>
+</div>
+<BR><BR>
+
+<!--setup the title part of the page-->
+<div id="title">
+ <p align="center" style="font-family:verdana"><b>
+ <font size="72" color="white">Abyssopelagic Zone</font><BR></b>
+   <font color="white">
+     Also known as the Abyssal Zone
+   </font>
+ </p><BR>
+</div>
+
+<BR>
+<!--place image to the right of the text on page-->
+<div id="right"> <p align="center">
+  <BR>
+    <img src="assets/AZecosystem.jpg" height="45%">
+    <BR><BR>
+    <img src="assets/AZecosystem2.jpg" height="45%">
+  </p></div>
+
+<!--setup text and info about abyssal zone on page-->
+  <div id="left">
+    <p align="center" style="font-family:verdana; font-size:20px">
+      <font color="white"><b><i> About the Abyssal Zone</i> </b></font>
+    </p>
+<BR>
+<!--text block in right div for sunlight zone information-->
+  <p style="font-family:verdana">
+    <font color="white">  	The abyssal zone is the fourth layer of the ocean, under the bathypelagic zone (midnight zone). 
+	    It includes depths of around 9,800 to 19,700 feet. 
+	    It takes up more than 83% of the ocean and covers about 60% of Earth.  
+	    It is also the largest environment for Earth life, spanning 115,000,000 square miles. <BR> <BR>
+	
+	Human activities have little to no affect on the life and ecosystems in the abyssal zone due to it's depth. 
+	    Abyssal plains are some of the least explored regions on Earth.<BR><BR>
+	
+	There is a low level of energy in the water in the abyssal zone, as it is far from storms on the surface. 
+	    There is also no sunlight, with average temperatures of 36-37 °F and high pressures of 11.000 pounds per inch.<BR><BR>
+	
+	Some of organisms that live in this layer are:<BR>
+	- Algae<BR>
+	- Glass Sponges<BR>
+	- Sea Cucumbers<BR>
+	- Deep Sea Jellyfish<BR>
+	- Tripod Fish<BR>
+	- Brittle Stars<BR>
+	- Dumbo Octopuses- have adapted to abyssal environment<BR>
+	- Anglerfish<BR>
+	- Squid<BR>
+
+        </font>
+       </p>
+     </div>
+   <BR><BR>
+
+<!--button so you can go to coral reef page-->
+  <p align="center">
+    <button class="button reefbutton" onclick="document.location = 'HydrothermalVents.html'">Learn About Hydrothermal Vents!</button>
+  </p>
+
+  <!--external links with more info on other sites-->
+<BR>
+  <p align="left" style="font-family:verdana; font-size:16px">
+    <font color="white"><i>Learn more about the Abyssopelagic Zone at these sites:</i><BR></font>
+    </p>
+    <p align="left" style="font-family:verdana; font-size:14px">
+	<a href="https://www.nationalgeographic.org/article/all-about-the-ocean/">National Geographic - All About the Ocean</a>
+      <BR>
+      <a href="https://www.britannica.com/science/abyssal-zone">Abyssal Zone- Enyclopaedia Britannica</a>
+      <BR>
+      <a href="https://en.wikipedia.org/wiki/Abyssal_zone">Abyssal Zone- Wikipedia</a>
+      <BR>
+      
+<BR><BR><BR><BR>
+</body>
+</html>
