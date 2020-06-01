@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Dumbo Octopus -Abyssal Zone </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(blue, darkblue);
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height:700px;
+  width:50%;
+  float:right;
+}
+/*id=rightbutton setup for button div used below*/
+#rightbutton {
+  height:100px;
+  width:50%;
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height:700px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:left;
+}
+/*id=leftbutton setup for button div used below*/
+#leftbutton {
+  height: 100px;
+  width: 50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #07BEB8;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #4F64C1;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to sunlight info page*/
+.sunlightbutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for sunlightbutton*/
+.sunlightbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user to next/prev page*/
+.nextbutton {
+  background-color: #F36F3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for nextbutton*/
+.nextbutton:hover {
+  background-color: #FFCA3A;
+  color: white;
+}
+/*dropdown menu functionality implemented below*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+</style>
+</head>
+
+<!--start of body for page-->
+ <body>
+   <BR><BR>
+     <!--put in buttons for access to home page which isnt build yet-->
+     <button class="button homebutton">Home</button>
+     <!--drop down menu for the sunlight zone sections-->
+     <div class="dropdown">
+       <button class="button sunlightbutton" onclick="document.location = 'InfoAbyssalZone.html'">Abyssopelagic Zone</button>
+       <div class="dropdown-content">
+        <a href="HydrothermalVents.html"><p style="font-family:verdana; font-size:14px">Hydrothermal Vents</p></a>
+        <a href="DumboOctopus.html"><p style="font-family:verdana; font-size:14px">Dumbo Octopus</p></a>
+        <a href="TripodFish.html"><p style="font-family:verdana; font-size:14px">Tripod Fish</p></a>
+        <a href="WhaleFall.html"><p style="font-family:verdana; font-size:14px">Whale Fall</p></a>
+       </div>
+     </div>
+   <BR><BR>
+
+     <!--setup for title bar of page-->
+     <div id="title">
+       <p align="center" style="font-family:verdana">
+         <font size="72" color="white"><b>Dumbo Octopus</b></font>
+         <BR>
+           <font color="white">Scientific name: Grimpoteuthis</font>
+         </p>
+         <BR>
+      </div>
+      <BR>
+
+      <!--place image to the right of the text on page-->
+      <div id="right">
+        <p align="center">
+          <img src="Assets/DumboOctopus1.jpg" height="45%">
+          <BR><BR>
+          <img src="Assets/DumboOctopus2.jpg" height="45%">
+        </p>
+        </div>
+
+        <!--title of text block-->
+        <div id="left">
+          <p align="center" style="font-family:verdana; font-size:20px">
+            <font color="white"><b><i>About Dumbo Octopuses</i> </b></font>
+          </p>
+
+      <!--text block in right div for sunlight zone information-->
+        <p style="font-family:verdana">
+          <font color="white">
+          
+          The dumbo octopus is the largest cephalopod found below 13,000 feet.  It's average size is 8-12 inches, however, the largest
+          ever documented was about 6 feet. It was named after its similarity to the main character of Disney's film Dumbo, because of 
+          its prominent "ear" like fins (used with its arms to swim through the water). <BR><BR> 
+
+          Their prey are part of the ecosystem formed by hydrothermal vents mainly consisting of copepods (small crustaceans), bristle worms, and
+          amphipods (also small crustaceans but smaller and have arched backs).<BR><BR>
+
+          The dumbo octopus doesn’t have many predators in the deep sea that they call home.  This is also why they don't have ink sacs.  
+          The few primary predators that they do have are marine animals and diving fish, including dolphins, sharks, and tuna.<BR><BR>
+
+          
+          </font>
+        </p>
+      </div>
+
+           <BR><BR><BR><BR>
+
+
+           <!--buttons so you can go forward/backward between pages-->
+           <div id="leftbutton">
+           <p align="center">
+             <button class="button nextbutton" onclick="document.location = 'HydrothermalVents.html'">Back</button>
+           </p> </div>
+
+           <div id="rightbutton">
+           <p align="center">
+               <button class="button nextbutton" onclick="document.location = 'TripodFish.html'">Next</button>
+             </p>
+           </div>
+
+           <!--additional info that links out to external pages-->
+           <BR>
+             <p align="left" style="font-family:verdana; font-size:16px">
+               <font color="white"><i>Learn more about dumbo octopuses at these sites:</i><BR></font>
+               </p>
+               <p align="left" style="font-family:verdana; font-size:14px">
+                 <a href="https://www.nationalgeographic.com/animals/invertebrates/d/dumbo-octopus/">National Geographic - Dumbo Octopus</a>
+                 <BR>
+                 <a href="https://oceana.org/marine-life/cephalopods-crustaceans-other-shellfish/dumbo-octopus">Oceana - Dumbo Octopus</a>
+                 <BR>
+                </p>
+
+                <BR><BR>
+                </body>
+                </html>

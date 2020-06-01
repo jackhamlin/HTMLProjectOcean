@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Whale Fall -Abyssal Zone </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(blue, darkblue);
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height:700px;
+  width:50%;
+  float:right;
+}
+/*id=rightbutton setup for button div used below*/
+#rightbutton {
+  height:100px;
+  width:50%;
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height:700px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:left;
+}
+/*id=leftbutton setup for button div used below*/
+#leftbutton {
+  height: 100px;
+  width: 50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #7F9C96;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #4F64C1;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to sunlight info page*/
+.sunlightbutton {
+  background-color: #009DDC;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for sunlightbutton*/
+.sunlightbutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user to next/prev page*/
+.nextbutton {
+  background-color: #F36F3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for nextbutton*/
+.nextbutton:hover {
+  background-color: #FFCA3A;
+  color: white;
+}
+/*dropdown menu functionality implemented below*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+</style>
+</head>
+
+<!--start of body for page-->
+ <body>
+   <BR><BR>
+     <!--put in buttons for access to home page which isnt build yet-->
+     <button class="button homebutton">Home</button>
+     <!--drop down menu for the sunlight zone sections-->
+     <div class="dropdown">
+       <button class="button sunlightbutton" onclick="document.location = 'InfoAbyssalZone.html'">Abyssopelagic Zone</button>
+       <div class="dropdown-content">
+        <a href="HydrothermalVents.html"><p style="font-family:verdana; font-size:14px">Hydrothermal Vents</p></a>
+        <a href="DumboOctopus.html"><p style="font-family:verdana; font-size:14px">Dumbo Octopus</p></a>
+        <a href="TripodFish.html"><p style="font-family:verdana; font-size:14px">Tripod Fish</p></a>
+        <a href="WhaleFall.html"><p style="font-family:verdana; font-size:14px">Whale Fall</p></a>
+       </div>
+     </div>
+   <BR><BR>
+
+     <!--setup for title bar of page-->
+     <div id="title">
+       <p align="center" style="font-family:verdana">
+         <font size="72" color="white"><b>Whale Fall</b></font>
+         <BR>
+           <font color="white">Feast of the Decade</font>
+         </p>
+         <BR>
+      </div>
+      <BR>
+
+      <!--place image to the right of the text on page-->
+      <div id="right">
+        <p align="center">
+          <img src="Assets/WhaleFall1.jpg" height="45%">
+          <BR><BR>
+          <img src="Assets/WhaleFall2.png" height="45%">
+        </p>
+        </div>
+
+        <!--title of text block-->
+        <div id="left">
+          <p align="center" style="font-family:verdana; font-size:20px">
+            <font color="white"><b><i>About Whale Falls</i> </b></font>
+          </p>
+
+      <!--text block in right div for sunlight zone information-->
+        <p style="font-family:verdana">
+          <font color="white">
+          
+          A whale fall is when a dead whale's carcass falls to depths past 3,290 feet, usually to the midnight and abyssal zones.  
+          Once they reach the sea floor, unique ecosystems form in and around it, often lasting for months to decades due to their 
+          large size and feeding thousands of animals.  Food is usually pretty scarce in at these depths, so when a whale fall occurs 
+          it draws in a diverse crowd of organisms.<BR><BR>
+          The whale won't be fully intact, as other creatures will have already consumed parts of it, but bones, blubber, and several 
+          internal organs will still remain.  Many of the species that are a part of these whale fall ecosystems are similar to those 
+          found in hydrothermal vents. <BR><BR>
+          There are three general stages that occur once the carcass reaches the sea floor:<BR>
+          First, scavengers, such as crabs, certain fish, hagfishes, and sleeper sharks (depending on depth) move to the carcass.  
+          They consume the soft tissue, eating about 80-130lbs per day.  This can last for about 4 months for a 5-ton carcass, and 
+          about 10 months to 2 years for a 35-ton carcass.  Then only the skeleton is left.<BR><BR>
+          In the second stage, worms, crustaceans, and mollusks (like snails) cover the skeleton.  They eat the remaining parts, 
+          even the sediment around the carcass where decomposing tissue has fallen.<BR><BR>
+          The third, and longest, stage can last more than 10-50 years.  Bones produce sulfide because of chemosynthetic bacteria.  
+          They produce sulfide from using sulfate to break apart lipids from the bones.  The sulfide then fuels groups of more 
+          bacteria, tube worms, and mussels.<BR><BR>
+
+
+          
+          </font>
+        </p>
+      </div>
+
+           <BR><BR><BR><BR>
+
+
+           <!--buttons so you can go forward/backward between pages-->
+           <div id="leftbutton">
+           <p align="center">
+             <button class="button nextbutton" onclick="document.location = 'TripodFish.html'">Back</button>
+           </p> </div>
+
+           <div id="rightbutton">
+           <p align="center">
+               <button class="button nextbutton" onclick="document.location = 'InfoAbyssalZone.html'">Next</button>
+             </p>
+           </div>
+
+           <!--additional info that links out to external pages-->
+           <BR>
+             <p align="left" style="font-family:verdana; font-size:16px">
+               <font color="white"><i>Learn more about whale falls at these sites:</i><BR></font>
+               </p>
+               <p align="left" style="font-family:verdana; font-size:14px">
+                 <a href="https://allyouneedisbiology.wordpress.com/tag/whale-fall-stages/">All you need is biology - What lies beyond the death of a whale?</a>
+                 <BR>
+                 <a href="https://oceanservice.noaa.gov/facts/whale-fall.html">NOAA - What is a whale fall?</a>
+                 <BR>
+                  <a href="https://ocean.si.edu/ocean-life/marine-mammals/life-after-whale-whale-falls">Smithsonian - Life after Whale</a>
+                 <BR>
+                </p>
+
+                <BR><BR>
+                </body>
+                </html>
