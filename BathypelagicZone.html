@@ -1,0 +1,175 @@
+<!DOCTYPE HTML PUBLIC>
+<html>
+<head>
+
+<title> Ilona Kovacs - Bathypelagic Zone </title>
+
+<meta http-equiv="Content-Type" content = "text/html; charset = ISO-8859-1">
+
+
+<style type="text/css">
+
+/*body setup for the document*/
+body {
+  background-image: linear-gradient(rgba(11,115,88, 0.8), rgba(0,100,200, .8));
+  height:100%
+}
+
+/*id=right setup for the div*/
+#right {
+  height: 600px;
+  width:50%;
+  background-color:rgba(79, 100, 193, 0.3);
+  float:right;
+}
+/*id=left setup for the div*/
+#left {
+  height: 600px;
+  width:50%;
+  float:left;
+}
+/*id=title setup for the div*/
+#title {
+  border: 2px solid white;
+  background-color: #009DDC;
+  height:100px;
+  width: 100%;
+  float:center;
+}
+
+/*button setup for document*/
+.button {
+  text-align: center;
+  padding: 16px 32px;
+  display: inline-block;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+/*homebutton setup for button*/
+.homebutton {
+  background-color: #FFCA3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for homebutton*/
+.homebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+/*button to bring user back to subzone info page*/
+.subzonebutton {
+  background-color: #F36F3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function for subzonebutton*/
+.subzonebutton:hover {
+  background-color: #10A57E;
+  color: white;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0,0.2);
+  z-index:1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display:block;
+}
+.dropdown-content a:hover {background-color: grey}
+.dropdown:hover .dropdown-content{display:block;};
+.dropdown:hover .dropbtn {background-color: grey;}
+/*creaturebutton setup for button*/
+.creaturebutton {
+  background-color: #FFCA3A;
+  color: white;
+  border: 2px solid white;
+}
+/*hover function setup for creaturebutton*/
+.creaturebutton:hover {
+  background-color: #F36F3A;
+  color: white;
+}
+</style></head>
+
+<!--start of body for html page-->
+ <body>
+ <BR><BR>
+<!--created button so you can go back to home page-->
+<button class="button homebutton">Home</button>
+<!--created button so you can navigate each zone, dropdown menu-->
+<div class="dropdown">
+  <button class="button subzonebutton">Subzones & More</button>
+  <div class="dropdown-content">
+    <a href="BathypelagicZone.html"><p style="font-family:verdana; font-size:14px">Bathypelagic Zone</p></a>
+    <a href="HadalpelagicZone.html"><p style="font-family:verdana; font-size:14px">Hadalpelagic Zone</p></a>
+    <a href="AnglerFish.html"><p style="font-family:verdana; font-size:14px">Angler Fish</p></a>
+    <a href="MarianaSnailfish.html"><p style="font-family:verdana; font-size:14px">Mariana Snailfish</p></a>
+  </div>
+</div>
+<BR><BR>
+
+<!--setup the title part of the page-->
+<div id="title">
+ <p align="center" style="font-family:verdana"><b>
+ <font size="72" color="white">Bathypelagic Zone</font><BR></b>
+   <font color="white">
+     Fun information about the "Midnight Zone"
+   </font>
+ </p><BR>
+</div>
+
+<BR>
+<!--place image to the left of the text on page-->
+<div id="left"> <p align="center">
+  <BR>
+    <img src="assets/oceanlayers.png" height="90%">
+  </p></div>
+
+<!--setup text and info about midnight zone on page-->
+  <div id="right">
+    <p align="center" style="font-family:verdana; font-size:20px">
+      <font color="white"><b><i> About the Midnight Zone</i> </b></font>
+    </p>
+<BR>
+<!--text block in right div for midlight zone information-->
+  <p align="center" p style="font-family:verdana">
+    <font color="white">  The Bathypelagic Zone, or Midnight Zone, is a subzone of the deepest zone in the ocean: the 
+    <a href="Megan/InfoAbyssalZone.html">Abyssopelagic Zone</a>. 
+    This subzone comes 'above' the abyss. The depth ranges between 3,300-13,100 feet and can cause high pressures around 5,850 pounds per square inch. Because no sunlight can reach this subzone (hense the name), the waters tempurature is close to freezing at about 39°F.<BR><BR>
+          This subzone has no plants or phytoplankton due to its lack of sunlight. The aquatic animals that live in here are often scavengers or predators who help themselves to a vast variety of meal options due to scarcity. The darkness also provides a sort of safety, as the creatures often lack camouflage or bright colors. Some of them are even blind!
+        </font>
+       </p>
+     </div>
+   <BR><BR>
+
+<!--button so you can go to hadalpelagic page-->
+  <p align="center">
+    <button class="button creaturebutton" onclick="document.location = 'AnglerFish.html'">Learn About Angler Fish!</button>
+  </p>
+
+  <!--external links with more info on other sites-->
+<BR>
+  <p align="left" style="font-family:verdana; font-size:16px">
+    <font color="white"><i>Learn more about the Bathypelagic Zone at these sites:</i><BR></font>
+    </p>
+    <p align="left" style="font-family:verdana; font-size:14px">
+      <a href="https://www.aquarium.co.za/blog/entry/welcome-to-the-midnight-zone-a-deep-sea-learning-experience">Two Oceans Aquarium - Welcome to the Midnight Zone</a>
+      <BR>
+      <a href="https://www.nationalgeographic.org/article/all-about-the-ocean/">National Geographic - All About the Ocean</a>
+      <BR>
+      <a href="https://www.worldatlas.com/articles/the-5-layers-of-the-ocean.html">World Atlas - The 5 Layers of The Ocean</a>
+      </p>
+<BR><BR><BR><BR>
+</body>
+</html>
